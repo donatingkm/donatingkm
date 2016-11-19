@@ -1,0 +1,11 @@
+# webStorm
+.idea/
+
+#node_modules
+node_modules/
+
+# .bithoundrc
+.bithoundrc
+
+#.DS_Store
+.DS_Store

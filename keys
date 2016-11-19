@@ -1,0 +1,15 @@
+MongoDB 2.4 database added.  Please make note of these credentials:
+
+   Root User:     admin
+   Root Password: zIzvgZ6lbDFA
+   Database Name: hapijs
+
+Connection URL: mongodb://$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/
+
+
+Jenkins created successfully.  Please make note of these credentials:
+
+   User: admin
+   Password: bB6ESbRkDuAc
+
+Note:  You can change your password at: https://jenkins-onrunner.rhcloud.com/me/configur
