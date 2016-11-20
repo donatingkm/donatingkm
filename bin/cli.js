@@ -162,7 +162,7 @@ class Cli {
   * Build command
   * @param1 {object} json object with command options for command
   * @public
-  * @example uz.build({ "browser" : ["chrome", "firefox", "edge"] })
+  * @example dkm.build({ "browser" : ["chrome", "firefox", "edge"] })
   */
   build(commandOpts) {
     this.run('build', commandOpts);
@@ -172,7 +172,7 @@ class Cli {
   * Deploy command
   * @param1 {object} json object with command options for command
   * @public
-  * @example uz.build({ "browser" : ["chrome", "firefox", "edge"] })
+  * @example dkm.build({ "browser" : ["chrome", "firefox", "edge"] })
   */
   deploy(options) {
     this.run('deploy', options);
