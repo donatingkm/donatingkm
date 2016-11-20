@@ -17,7 +17,7 @@ const { debug } = require('./utils');
 const TaskBuild = require('./tasks/task-build');
 
 /**
- * UZ CLI
+ * DKM CLI
  * @class Cli
  * @example By command line: cli [command] [options]
  * @example By Javascript API: cli.[command]([options])
@@ -104,7 +104,7 @@ class Cli {
   * @param2 {object} json object with command options for command
   * @public
   *
-  * @example uz.run('build', { browser: ["chrome","firefox","edge" ]})
+  * @example cli.run('build', { browser: ["chrome","firefox","edge" ]})
   */
   run(argTaskName, argCommandOptions) {
     const taskName = argTaskName;
@@ -162,7 +162,7 @@ class Cli {
   * Build command
   * @param1 {object} json object with command options for command
   * @public
-  * @example dkm.build({ "browser" : ["chrome", "firefox", "edge"] })
+  * @example cli.build({ "browser" : ["chrome", "firefox", "edge"] })
   */
   build(commandOpts) {
     this.run('build', commandOpts);
@@ -172,7 +172,7 @@ class Cli {
   * Deploy command
   * @param1 {object} json object with command options for command
   * @public
-  * @example dkm.build({ "browser" : ["chrome", "firefox", "edge"] })
+  * @example cli.build({ "browser" : ["chrome", "firefox", "edge"] })
   */
   deploy(options) {
     this.run('deploy', options);
